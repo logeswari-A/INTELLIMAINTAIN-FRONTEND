@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { fmtTime } from "../format.js";
+import { fmtTime } from "./format.js";
 import { StatusPill } from "./ui.jsx";
 
 function Item({ alert, onDecide }) {
