@@ -1,4 +1,4 @@
-import { DQ, fmtDateTime } from "../format.js";
+import { DQ, fmtDateTime } from "./format.js";
 import { StatusPill } from "./ui.jsx";
 
 const DECISION = { pending: "Awaiting decision", approved: "Approved", rejected: "Rejected", superseded: "Superseded" };
