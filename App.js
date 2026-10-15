@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 import { api, usePolling } from "./api.js";
-import FleetBar from "./components/FleetBar.jsx";
-import History from "./components/History.jsx";
-import Inbox from "./components/Inbox.jsx";
-import MachinePage from "./components/MachinePage.jsx";
-import QueueTable from "./components/QueueTable.jsx";
-import { SimBadge } from "./components/ui.jsx";
+import FleetBar from "./FleetBar.jsx";
+import History from "./History.jsx";
+import Inbox from "./Inbox.jsx";
+import MachinePage from "./MachinePage.jsx";
+import QueueTable from "./QueueTable.jsx";
+import { SimBadge } from "./ui.jsx";
 import { fmtTime } from "./format.js";
 
 function useRoute() {
