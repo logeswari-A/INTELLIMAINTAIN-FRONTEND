@@ -1,4 +1,4 @@
-import { FIELDS, fmtValue } from "../format.js";
+import { FIELDS, fmtValue } from "./format.js";
 import { DataTrust, RiskMeter, Sparkline, StatusPill } from "./ui.jsx";
 
 const vib = FIELDS.find((f) => f.key === "vibration_mm_s");
