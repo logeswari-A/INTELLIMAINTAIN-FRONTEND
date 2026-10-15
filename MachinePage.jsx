@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
-import { api, usePolling } from "../api.js";
-import { DQ, FIELDS, fmtTime, fmtValue } from "../format.js";
+import { api, usePolling } from "./api.js";
+import { DQ, FIELDS, fmtTime, fmtValue } from "./format.js";
 import History from "./History.jsx";
 import { Glyph, Issues, RiskMeter, StatusPill } from "./ui.jsx";
 
