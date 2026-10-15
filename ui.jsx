@@ -1,5 +1,4 @@
-import { DQ, FIELDS, STATUS, fieldLabel } from "../format.js";
-
+import { DQ, FIELDS, STATUS, fieldLabel } from "./format.js";
 export function StatusPill({ status }) {
   const s = STATUS[status] ?? { label: status, cls: "" };
   return <span className={`pill ${s.cls}`}>{s.label}</span>;
