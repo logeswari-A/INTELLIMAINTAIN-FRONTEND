@@ -1,5 +1,4 @@
-import { STATUS } from "../format.js";
-
+import { STATUS } from "./format.js";
 const ORDER = ["high_risk", "data_check", "warning", "healthy"];
 
 export default function FleetBar({ total, counts }) {
